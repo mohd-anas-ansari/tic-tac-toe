@@ -1,23 +1,19 @@
 {
-  "name": "tic-tac-toe",
+  "name": "react-tic-tac-toe",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.0"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
