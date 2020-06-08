@@ -42,6 +42,13 @@ ol, ul {
    text-align: center;
   font-family: "Century Gothic", Futura, sans-serif;
   box-sizing: border-box;
+  background-color: #FFE4E1;
+;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
 }
 
 .board-container {
@@ -55,9 +62,17 @@ ol, ul {
   width: 100px;
   border: 1px solid black;
   font-size: 4rem;
+  color: #AB3E16;
 
   /* center p content */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+/* game info */
+.game-info {
+  margin-left: 5rem;
+  margin-top:  5rem;
 }

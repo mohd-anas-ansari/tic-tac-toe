@@ -63,6 +63,10 @@ class Game extends React.Component {
 			status = "Next player: " + (this.state.xIsNext ? "X" : "O");
 		}
 
+		if (history.length === 10) {
+			status = "Oh No. Game Draw!!";
+		}
+
 		return (
 			<div className="game">
 				<div className="game-board">
